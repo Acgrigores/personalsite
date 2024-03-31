@@ -104,3 +104,34 @@ footer {
 .bio p {
     margin-bottom: 20px;
 }
+#experiences {
+    background-color: #242424; /* Dark background for the section */
+    color: #ffffff; /* Light text for readability */
+    padding: 40px 0; /* Top and bottom padding */
+}
+
+#experiences h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffcc00; /* Accent color for the section title */
+}
+
+#experiences h3 { /* Job title or position */
+    color: #fef9d0; /* Keeping the text light */
+    margin-top: 20px; /* Spacing from the previous content */
+}
+
+#experiences h4 { /* Company name or organization, and duration */
+    color: #cccccc; /* Slightly dimmer color for less emphasis */
+    margin-top: 5px; /* Reduced spacing from the job title */
+}
+
+#experiences p, #experiences ul {
+    font-size: 16px; /* Adequate reading size */
+    line-height: 1.6; /* Spacing for readability */
+    margin-top: 10px; /* Spacing from the heading */
+}
+
+#experiences li { /* Bullet points for responsibilities or achievements */
+    margin-bottom: 10px; /* Spacing between bullet points */
+}
