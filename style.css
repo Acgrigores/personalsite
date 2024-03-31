@@ -50,3 +50,57 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+#awards {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+#awards h2 {
+    margin-top: 0;
+}
+
+#awards ul {
+    list-style: none;
+    padding: 0;
+}
+
+#awards li {
+    margin-bottom: 10px;
+}
+
+#awards li strong {
+    color: #00b7ff;
+}
+#about {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+#about h2 {
+    margin-top: 0;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-pic {
+    width: 140px;
+    height: 170px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.bio {
+    max-width: 600px;
+    text-align: center;
+}
+
+.bio p {
+    margin-bottom: 20px;
+}
